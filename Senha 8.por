@@ -1,0 +1,14 @@
+programa
+{
+	funcao inicio()
+	{
+		inteiro senha
+
+		leia(senha)
+
+		se (senha == 1234)
+			escreva("Sistema Desbloqueado")
+		senao
+			escreva("Senha Incorreta - Invasor Detectado")
+	}
+}
